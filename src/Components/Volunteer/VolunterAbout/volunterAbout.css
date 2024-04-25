@@ -1,0 +1,38 @@
+.aboutContainer{
+    display:flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin:40px;
+}
+.imagecon{
+    border-radius: 20px;
+    height: 80vh;
+}
+.detailsContainer{
+    margin-left: 30px;
+}
+.heading{
+    color:#1b2651;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.Role{
+    color:#cd2028;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.Aboutheading{
+    color:#cd2028;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.Desc{
+    color:#1b2651;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 100;
+}

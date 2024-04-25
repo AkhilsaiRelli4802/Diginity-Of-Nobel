@@ -1,0 +1,24 @@
+.card1{
+    margin:40px;
+}
+.card2{
+    margin:40px
+}
+.card3{
+    margin:40px;
+}
+.cardbackground{
+    background-color: #1b2651;
+    width:100vw;
+}
+.cardbackground:hover{
+    background-color: #cd2028;
+    border-color: black;
+    border-radius: 10px;
+}
+.cardsContainer{
+    background-color: #cd2028;
+}
+.slider{
+    width:96vw;
+}

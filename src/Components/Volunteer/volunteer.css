@@ -1,0 +1,28 @@
+.cardContainer{
+    margin:150px;
+}
+.Volunteer{
+    color:#cd2028;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: 200;
+}
+.Volunteerdesc{
+    color:#1b2651;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: oblique;
+    font-weight: 100;
+}
+.Volunteer::before,
+.Volunteer::after {
+  content: '<<';
+  margin-right: 5px;
+  font-weight: bolder;
+}
+
+.Volunteer::after {
+  content: '>>';
+  margin-left: 5px;
+}

@@ -1,0 +1,50 @@
+.Volunteercard {
+    position: relative;
+    width: 300px;
+    height:400px;
+    margin:20px;
+    background-image: url('https://img.freepik.com/premium-photo/brunette-wearing-volunteer-tshirt-with-arms-crossed_13339-71406.jpg?w=360') !important;
+    background-position: center;
+    /* background-size: 48vh; */
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+  
+.Volunteercard::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+  
+.CardsContainer{
+    display: flex;
+    margin: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardContent{
+    background-color: rgba(255, 255, 255, 0.8); /* Background color for the content */
+    padding: 16px;
+    color:#cd2028;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cardContent:hover{
+    background-color:#cd2028;
+    color:#1b2651;
+    transition: 3.8s;
+}
+.cardLink{
+    text-decoration: none;
+}

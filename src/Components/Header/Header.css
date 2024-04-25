@@ -1,0 +1,109 @@
+.Headerlogo{
+    width:60px;
+    height: 60px;
+    border-radius: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+}
+.searchbar{
+    width:800px;
+    height:30px;
+    margin-left: 20px;
+}
+.HeaderContainer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:20px;
+    padding: 20px;
+    height: 40px;
+    background-color: #ffff;
+    padding:40px
+}
+.continer{
+    display: flex;
+    height:20px;
+    /* margin:20px */
+}
+.places{
+    margin-right: 20px;
+}
+.HeaderContainer2{
+    display: flex;
+    background-color: rgb(213, 210, 210);
+    align-items: center;
+    justify-content: space-between;
+    height:20px;
+    margin:20px;
+    border-radius: 3px;
+    border-width: 3.5px;
+    border-color: white;
+    border-style:double;
+}
+.firstpart{
+    display: flex;
+    margin-left:25px;
+    justify-content: space-between;
+}
+.secondpart{
+    display: flex;
+    margin-right: 20px;
+}
+.clickabledetails{
+    padding:10px;
+    font-size: 25px;
+    font-family:"Aria";
+    font-weight: 10px;
+    padding-left: 10px;
+    margin:10px;
+    color: #1b2651 
+}
+.NavButton{
+    padding: 10px 20px;
+    background-color: #cd2028;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1.9s;
+}
+
+.NavButton:hover{
+    background-color: #1b2651;
+}
+
+
+
+.navbarposition{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Adjust z-index as needed */
+    background-color: #ffffff; /* Set background color for the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navLink{
+    text-decoration: none;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .HeaderContainer1 {
+      padding: 15px;
+    }
+  
+    .clickabledetails {
+      font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1440px) {
+    .HeaderContainer1 {
+      padding: 20px;
+    }
+  
+    .clickabledetails {
+      font-size: 22px;
+    }
+  }
+
+  

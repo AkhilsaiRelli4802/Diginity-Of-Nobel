@@ -1,0 +1,38 @@
+.my-button {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #cd2028; 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 1.3s;
+    width:140px;
+  }
+  
+  .my-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(64, 120, 224, 0.3);
+    transition: width 0.3s;
+    pointer-events: none;
+  
+  }
+  
+  .my-button:hover::before {
+    width: 80%;
+  }
+  
+  .my-button:hover {
+    background-color: #1b2651;
+    color: rgba(248, 177, 177, 0.584);
+    border-style: double;
+    border-color: yellow;
+    border-width: 1px;
+  }
+  

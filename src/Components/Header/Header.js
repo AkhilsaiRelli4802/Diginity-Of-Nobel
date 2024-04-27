@@ -17,7 +17,8 @@ function Header(){
                         <NavLink to="/Home" className="navLink"><h1 className="clickabledetails">Home</h1></NavLink>
                         <NavLink to = "/About" className="navLink"><h1 className="clickabledetails">About</h1></NavLink>
                         <NavLink to="/Volunteer" className="navLink"><h1 className="clickabledetails">Volunteers</h1></NavLink>
-                        <NavLink to = "/Articles" className="navLink"><h1 className="clickabledetails">Article</h1></NavLink>
+                        <NavLink to = "/Testnomials" className="navLink"><h1 className="clickabledetails">Testnomials</h1></NavLink>
+                        <NavLink to = "/News&Blogs" className="navLink"><h1 className="clickabledetails">News&Blogs</h1></NavLink>
                         <NavLink to="/Contact" className="navLink"><h1 className="clickabledetails">Contact Us</h1></NavLink>
                         <NavLink to = "/FAQ" className="navLink"><h1 className="clickabledetails">FAQ</h1></NavLink>
                     </div>

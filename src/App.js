@@ -9,16 +9,17 @@ import Volunteer from './Components/Volunteer/Volunteer';
 import VolunterPerson1 from './Components/Volunteer/VolunterAbout/AboutVolunter1';
 import VolunterPerson2 from './Components/Volunteer/VolunterAbout/AboutVolunter2';
 import VolunterPerson3 from './Components/Volunteer/VolunterAbout/AboutVolunteer3';
-import NavBar from './Components/Navbar/Navbar';
+// import NavBar from './Components/Navbar/Navbar';
+import Header from "./Components/Header/Header"
+import Testimonials from './Components/Testimonials/Testimonials1';
+import NewsAndBlogs from './Components/News&&Blogs/NewsAndBlogs';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      {/* <Header/> */}
-      <div>
-      <NavBar/>
-      </div>
+      <Header/>
+      {/* <NavBar/> */}
       <Routes>
         <Route path='/' element={<Navigate to="/Home"></Navigate>}/>
         <Route path='/Home' element={<Home/>}/>
@@ -26,6 +27,8 @@ function App() {
         <Route path='/volunteerteam1' element = {<VolunterPerson1/>}/>
         <Route path='/volunteerteam2' element = {<VolunterPerson2/>}/>
         <Route path='/volunteerteam3' element = {<VolunterPerson3/>}/>  
+        <Route path='/Testnomials' element={<Testimonials/>}/>
+        <Route path='/News&Blogs' element={<NewsAndBlogs/>}/>
       </Routes>
       </BrowserRouter>
     </div>

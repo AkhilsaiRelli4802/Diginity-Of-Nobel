@@ -27,7 +27,6 @@ function VolunterPerson1(){
             </div>
 
             <div style={{display:"flex",alignItems:"flex-start",justifyContent:"flex-start",flexDirection:"column"}}>
-            <h1 className="Aboutheading">Educational Background</h1>
             <h3 className="Role">Bachelor's Degree, 2010</h3>
             <p className="Desc">Proin ultricies ultricies est vitae cursus. Nulla sit amet suscipit tortor. Maecenas dui erat, ornare eget tristique vitae, rutrum pretium justo. Phasellus vitae consequat nisi, quis luctus nisl. Praesent faucibus sem id massa semper ornare. Nam eu magna at mi pellentesque mattis. Morbi at condimentum velit. Phasellus aliquet, leo auctor volutpat ultrices, metus dolor dictum enim, sed convallis lacus urna nec erat.</p>
             </div>
